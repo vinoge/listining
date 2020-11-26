@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView android:id="@+id/layout"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal|vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dip"
+        android:scrollbarStyle="outsideInset"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent" android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="355dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:text="British English vs. American English Pronunciation"
+                android:textSize="30sp" />
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="236dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Words"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:text="UK"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="61dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:text="US"
+                    android:textSize="30sp" />
+
+
+
+            </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="Agile"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="us"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="versatile"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play2"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton19"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play3"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="fertile"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton18"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play4"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play5"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="hostile"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play6"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play8"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="mobile"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play9"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play10"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="civilization"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play11"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play12"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="organization"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play13"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="play14"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>  <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="221dp"
+                android:layout_height="53dp"
+                android:layout_weight="1"
+                android:text="authorization"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:onClick="play15"
+                app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="74dp"
+                android:layout_height="wrap_content"
+                android:onClick="play16"
+                app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+        </TableRow>
+            <TableRow
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="53dp"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
+
+
+
+            </TableRow>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
